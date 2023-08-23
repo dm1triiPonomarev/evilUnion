@@ -68,7 +68,7 @@ const PokemonCard = () => {
             >
               <p>Снялся в {currentPokemon.moves.length} сериях</p>
               <p>id: {currentPokemon.id}</p>
-              <p>heigth: {currentPokemon.heigth}</p>
+              <p>heigth: {currentPokemon.height}</p>
               <p>attack: {currentPokemon.stats[1].base_stat}</p>
             </Box>
           </Box>
