@@ -4,7 +4,7 @@ export interface ICurrentPokemon {
   isLoading: boolean;
   data: {
     id: number;
-    heigth: number;
+    height: number;
     name: string;
     sprites: {
       front_shiny: string;
@@ -18,7 +18,7 @@ const initialState: ICurrentPokemon = {
   isLoading: false,
   data: {
     id: 0,
-    heigth: 0,
+    height: 0,
     name: "",
     sprites: { front_shiny: "" },
     moves: [],
