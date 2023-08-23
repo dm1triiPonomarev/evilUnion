@@ -31,7 +31,7 @@ const PokemonSelector = () => {
               color: currentPokemon.name === pokemon.name ? "#FDE791" : "#fff",
               background:
                 currentPokemon.name === pokemon.name ? "inherrit" : "#1986EC",
-              padding: "20px",
+              padding: "20px 8px",
               fontWeight: 500,
               fontSize: "20px",
               lineHeight: "20px",
