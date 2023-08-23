@@ -49,9 +49,8 @@ const PokemonCard = () => {
                   currentPokemon.name.slice(1)}
               </Typography>
               <img
-                src={currentPokemon.sprites.front_shiny}
-                // src={currentPokemon.sprites.other.dream_world.front_default}
-
+                // src={currentPokemon.sprites.front_shiny}
+                src={currentPokemon.sprites.other.dream_world.front_default}
                 style={{ height: "200px", width: "auto" }}
               />
             </Box>

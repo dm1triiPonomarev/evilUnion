@@ -8,6 +8,11 @@ export interface ICurrentPokemon {
     name: string;
     sprites: {
       front_shiny: string;
+      other: {
+        dream_world: {
+          front_default: string;
+        };
+      };
     };
     moves: [];
     stats: { base_stat: number }[];
@@ -20,7 +25,7 @@ const initialState: ICurrentPokemon = {
     id: 0,
     heigth: 0,
     name: "",
-    sprites: { front_shiny: "" },
+    sprites: { front_shiny: "", other: { dream_world: { front_default: "" } } },
     moves: [],
     stats: [{ base_stat: 0 }],
   },
